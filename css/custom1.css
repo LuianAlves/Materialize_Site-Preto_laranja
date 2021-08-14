@@ -1,0 +1,138 @@
+
+/* CADASTRO */
+
+.cadastro .mapa {
+	min-height: 385px;}
+
+.cadastro .mapa iframe {
+	width: 50%; 
+	min-height: 350px; 
+	border: none; 
+	padding-top: 42px;
+	border-radius: 10px;
+}
+
+.cadastro .formulario h4 {
+    color: #0f58d6;
+	font-size: 1.7rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding-bottom: 25px;
+}
+
+
+.cadastro .formulario {
+	min-height: 580px;
+	padding: 20px;
+	margin-top: 0;
+	box-shadow: 1px 1px 10px #000;
+	border-radius: 10px;
+	line-height: 0;
+	
+}
+
+.cadastro .formulario i:hover {
+	color: #abe302;
+}
+
+.cadastro .informacoes {
+	background-color: #222;
+	min-height: 330px;
+	padding: 23px;
+	margin-top: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	border-radius: 10px;
+	line-height: 1.2rem;
+}
+
+/*home1*/
+
+.home1 h2 {
+	font-size: 1.6rem;
+	color: #d14306;
+	text-transform: upprcase;
+	font-weight: 900;
+	margin-top: 20px;
+	font-family: verdana;
+}
+
+.btn-floating {
+	background-color: #26a69a;
+}
+.home1 h2:after {
+	content: "";
+	display: block;
+	width: 90px;
+	border-top: 2px solid #808bb0;
+	margin: 15px auto;
+	margin-bottom: 40px;
+}
+.home1 h2:hover{
+	color: #808bb0;
+	transition: 1s;
+}
+
+.home1 .informacoes {
+	background-color: #02465e;
+	min-height: 50px;
+	padding: 23px;
+	margin-top: 20px;
+	margin-bottom: 3px;
+
+	width: 250px;
+	border-radius: 10px; 
+	line-height: 1.2rem;
+}
+
+.home1 .informacoes h4 {
+	font-family: verdana;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.home1 .informacoes p {
+	font-family: verdana;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.card-content{
+     height: 150px;
+     margin-bottom: 50px;
+}
+.card-content p{
+     font-weight: 700;
+}
+.card .card-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #0f58d6;
+  margin-top: 0;
+}
+
+/*MEDIA*/
+@media only screen and (max-width: 480px) {
+.banner {padding-top: 4rem;}
+
+
+}
+
+@media only screen and (min-width: 601px) {
+.banner {padding-top: 4.5rem;}
+.banner h2 {font-size: 4rem;}
+.container { width: 85%; }
+.row .col.s12.m6.l4 .informacoes {margin-left: 60%;margin-bottom: 10px;}
+
+}
+
+@media only screen and (min-width: 993px) {
+.banner {padding-top: 5rem;} 
+.container { width: 90%; }
+
+.row .col.l4 {width: 100%;margin-left: auto;left: auto;right: auto;}
+ .row .col.s12.m6.l4 .informacoes {margin: auto;margin-bottom: 10px;margin-top: 10px;}
+
+}
